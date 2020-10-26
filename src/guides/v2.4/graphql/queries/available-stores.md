@@ -21,7 +21,11 @@ The following query returns information about the store's catalog configuration.
 
 ```graphql
 query {
+<<<<<<< HEAD
   availableStores(useCurrentGroup: true) {
+=======
+  availableStores {
+>>>>>>> master
     id
     code
     locale
@@ -56,12 +60,15 @@ query {
 }
 ```
 
+<<<<<<< HEAD
 ## Input attributes
 
 Attribute | Data type | Description
 --- | --- | ---
 `useCurrentGroup` | Boolean | Filter store views by current store group
 
+=======
+>>>>>>> master
 ## Output attributes
 
 {% include graphql/store-config.md %}
